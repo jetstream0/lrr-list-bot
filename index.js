@@ -13,6 +13,9 @@ client.on('ready', () => {
 });
 
 client.on('message', async message => {
+  if (message.content.startsWith(prefix+"help")) {
+  } else if (message.content.startsWith(prefix+"approve")) {
+  }
 });
 
 client.login(token);
