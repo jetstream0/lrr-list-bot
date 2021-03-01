@@ -5,7 +5,7 @@ const firebase = require('firebase-admin');
 
 const {bot_token} = process.env;
 
-const prefix = "lrr!";
+const prefix = "l!";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
