@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const firebase = require('firebase-admin');
+const db = require("./database.js");
 
 const {bot_token} = process.env;
 
@@ -18,4 +18,4 @@ client.on('message', async message => {
   }
 });
 
-client.login(token);
+client.login(bot_token);
