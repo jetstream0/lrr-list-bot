@@ -1,3 +1,4 @@
+//https://firebase.google.com/docs/admin/setup
 const admin = require('firebase-admin');
 
 //we need to set up a firebase db and add credential here
