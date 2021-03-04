@@ -1,4 +1,4 @@
-const firebase = require('firebase-admin');
+const admin = require('firebase-admin');
 
 //we need to set up a firebase db and add credential here
 admin.initializeApp();

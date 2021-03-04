@@ -3,6 +3,8 @@ const client = new Discord.Client();
 
 const db = require("./database.js");
 
+const keep_alive = require("./keep_alive.js");
+
 const {bot_token} = process.env;
 
 const prefix = "l!";
